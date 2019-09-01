@@ -6,8 +6,8 @@
 </template>
 
 <script lang="ts">
-import { Component, Vue } from 'vue-property-decorator';
-import ToolBar from '../../packages/vue-test/src/components/ToolBar.vue'; // method 1
+import { Component, Vue } from 'vue-property-decorator'
+import ToolBar from '../../packages/vue-test/src/components/ToolBar.vue' // method 1
 
 @Component({
   components: {

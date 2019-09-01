@@ -3,11 +3,11 @@ module.exports = {
   env: {
     node: true
   },
-  extends: ["plugin:vue/essential", "@vue/standard", "@vue/typescript"],
-  plugins: ["vue", "prettier"],
+  extends: ['plugin:vue/essential', '@vue/standard', '@vue/typescript'],
+  plugins: ['vue', 'prettier'],
   rules: {
-    "no-console": process.env.NODE_ENV === "production" ? "error" : "off",
-    "no-debugger": process.env.NODE_ENV === "production" ? "error" : "off",
+    'no-console': process.env.NODE_ENV === 'production' ? 'error' : 'off',
+    'no-debugger': process.env.NODE_ENV === 'production' ? 'error' : 'off',
     //   // @fixable function 的小括号之前必须要有空格
     //   'space-before-function-paren': 'off',
     //   'no-eval': 'off',
@@ -17,22 +17,22 @@ module.exports = {
     //     'before': false,
     //     'after': true
     // }],
-    "prettier/prettier": [
-      "error",
+    'prettier/prettier': [
+      'error',
       {
         singleQuote: true,
-        trailingComma: "none",
+        trailingComma: 'none',
         bracketSpacing: true,
         jsxBracketSameLine: true
       }
     ]
   },
   parserOptions: {
-    parser: "@typescript-eslint/parser"
+    parser: '@typescript-eslint/parser'
   },
   overrides: [
     {
-      files: ["**/__tests__/*.{j,t}s?(x)"],
+      files: ['**/__tests__/*.{j,t}s?(x)'],
       env: {
         jest: true
       }

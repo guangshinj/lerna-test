@@ -4,8 +4,8 @@
     "scripts": {
         "serve": "vue-cli-service serve",
         "build": "vue-cli-service build",
-        "lint": "eslint --fix --ext .js,.vue src",
-        "format": "prettier-eslint --write \"src/**/*.js\" \"src/**/*.vue\"",
+        "lint": "vue-cli-service lint",
+        "format": "prettier-eslint --write \"src/**/*.js\" \"src/**/*.vue\" \"src/**/*.ts\"",
         "test:e2e": "vue-cli-service test:e2e",
         "test:unit": "vue-cli-service test:unit",
         "clean": "lerna clean"
@@ -31,7 +31,7 @@
         "@vue/eslint-config-prettier": "^5.0.0",
         "@vue/eslint-config-standard": "^4.0.0",
         "@vue/eslint-config-typescript": "^4.0.0",
-        "@vue/utils-test": "1.0.0-beta.29",
+        "@vue/test-utils": "^1.0.0-beta.29",
         "babel-core": "7.0.0-bridge.0",
         "babel-eslint": "^10.0.1",
         "eslint": "^5.16.0",

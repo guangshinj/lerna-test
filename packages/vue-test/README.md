@@ -1,4 +1,4 @@
-# @lerna-test
+# @lerna-test/vue-test
 
 ## Project setup
 ```

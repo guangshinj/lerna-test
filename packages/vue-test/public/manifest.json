@@ -1,6 +1,6 @@
 {
-  "name": "@lerna-test",
-  "short_name": "@lerna-test",
+  "name": "@lerna-test/vue-test",
+  "short_name": "@lerna-test/vue-test",
   "icons": [
     {
       "src": "./img/icons/android-chrome-192x192.png",
